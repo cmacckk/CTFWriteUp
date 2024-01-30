@@ -16,4 +16,5 @@
 | [[GXYCTF2019]Ping Ping Ping](Web/[GXYCTF2019]Ping Ping Ping.md) | `命令执行` |
 | [[强网杯 2019]随便注](Web/[强网杯 2019]随便注.md) | `sql注入` `堆叠注入` |
 | [[SUCTF 2019]EasySQL](Web/[SUCTF 2019]EasySQL.md) | `堆叠注入` `sql_mode管道符` |
+| [[极客大挑战 2019]Secret File](Web/[极客大挑战 2019]Secret File.md) | `文件包含` `php伪协议` `php命令执行` |
 
