@@ -710,6 +710,11 @@ echo $password;
 
 编写`exp`
 
+因为`file_get_contents`可以直接读取文件，只是读取后会显示在源代码，所以也可以用
+```php
+public $file = "flag.php";
+```
+
 ```php
 <?php  
 

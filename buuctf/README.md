@@ -23,4 +23,13 @@
 | [[极客大挑战 2019]BabySQL](<Web/[极客大挑战 2019]BabySQL.md>) | `sql注入` `双写绕过` |
 | [[极客大挑战 2019]PHP](<Web/[极客大挑战 2019]PHP.md>) | `php反序列化` `php代码审计` |
 | [[ACTF2020 新生赛]BackupFile](<Web/[ACTF2020 新生赛]BackupFile.md>) | `备份文件` `php弱类型比较` |
+| [[极客大挑战 2019]BuyFlag](<Web/[极客大挑战 2019]BuyFlag.md>) | `php弱类型比较` |
+| [[BJDCTF2020]Easy MD5](<Web/[BJDCTF2020]Easy MD5.md>) | `sql注入` |
+| [[护网杯 2018]easy_tornado](<Web/[护网杯 2018]easy_tornado.md>) | `tornado模板注入` |
+| [[HCTF 2018]admin](<Web/[HCTF 2018]admin.md>) | `flask` `本地session` |
+| [[MRCTF2020]你传你🐎呢](<Web/[MRCTF2020]你传你🐎呢.md>) | `文件上传` `.htaccess` |
+| [[ZJCTF 2019]NiZhuanSiWei](<Web/[ZJCTF 2019]NiZhuanSiWei.md>) | `php代码审计` `php伪协议` |
+| [[极客大挑战 2019]HardSQL](<Web/[极客大挑战 2019]HardSQL.md>) | `sql注入` `报错注入` |
+| [[MRCTF2020]Ez_bypass](<Web/[MRCTF2020]Ez_bypass.md>) | `php代码审计` `php弱类型比较` |
+| [[网鼎杯 2020 青龙组]AreUSerialz](<Web/[网鼎杯 2020 青龙组]AreUSerialz.md>) | `php代码审计` `php反序列化` |
 
