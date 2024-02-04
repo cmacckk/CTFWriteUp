@@ -32,4 +32,10 @@
 | [[极客大挑战 2019]HardSQL](<Web/[极客大挑战 2019]HardSQL.md>) | `sql注入` `报错注入` |
 | [[MRCTF2020]Ez_bypass](<Web/[MRCTF2020]Ez_bypass.md>) | `php代码审计` `php弱类型比较` |
 | [[网鼎杯 2020 青龙组]AreUSerialz](<Web/[网鼎杯 2020 青龙组]AreUSerialz.md>) | `php代码审计` `php反序列化` |
+| [[SUCTF 2019]CheckIn](<Web/[SUCTF 2019]CheckIn.md>) | `文件上传` `.user.ini` |
+| [[GXYCTF2019]BabyUpload](<Web/[GXYCTF2019]BabyUpload.md>) | `文件上传` `.htaccess` `system函数过滤` |
+| [[GXYCTF2019]BabySQli](<Web/[GXYCTF2019]BabySQli.md>) | `sql注入` `联合注入` `绕过md5密码认证` |
+| [[GYCTF2020]Blacklist](<Web/[GYCTF2020]Blacklist.md>) | `堆叠注入` `handler` |
+| [[CISCN2019 华北赛区 Day2 Web1]Hack World](<Web/[CISCN2019 华北赛区 Day2 Web1]Hack World.md>) | `sql注入` `布尔盲注` `二分法` |
+| [[网鼎杯 2018]Fakebook](<Web/[网鼎杯 2018]Fakebook.md>) | `sql注入` `php代码审计` `robots.txt` |
 
