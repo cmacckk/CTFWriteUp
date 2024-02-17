@@ -66,5 +66,8 @@
 | [[BSidesCF 2019]Kookie](Web/[BSidesCF 2019]Kookie.md) | `Cookie` |
 | [[BSidesCF 2019]Futurella](Web/[BSidesCF 2019]Futurella.md) | `源码` |
 | [[De1CTF 2019]SSRF Me](Web/[De1CTF 2019]SSRF Me.md) | `flask`   `python代码审计` |
+| [[BJDCTF2020]EasySearch](Web/[BJDCTF2020]EasySearch.md) | `index.php.swf`   `python md5生成` `SSI注入` |
+| [[极客大挑战 2019]RCE ME](Web/[极客大挑战 2019]RCE ME.md) | `正则表达式绕过` `异或绕过` `取反绕过` |
+| [[SUCTF 2019]Pythonginx](Web/[SUCTF 2019]Pythonginx.md) | `IDNA编码` `unicode` `flask` |
 |  |  |
 
