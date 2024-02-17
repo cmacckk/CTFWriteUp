@@ -38,4 +38,33 @@
 | [[GYCTF2020]Blacklist](<Web/[GYCTF2020]Blacklist.md>) | `堆叠注入` `handler` |
 | [[CISCN2019 华北赛区 Day2 Web1]Hack World](<Web/[CISCN2019 华北赛区 Day2 Web1]Hack World.md>) | `sql注入` `布尔盲注` `二分法` |
 | [[网鼎杯 2018]Fakebook](<Web/[网鼎杯 2018]Fakebook.md>) | `sql注入` `php代码审计` `robots.txt` |
+| [[RoarCTF 2019]Easy Java](<Web/[RoarCTF 2019]Easy Java.md>) | `java web` `任意文件下载` `反编译class文件` |
+| [[BJDCTF2020]The mystery of ip](Web/[BJDCTF2020]The mystery of ip.md) |                       `ssti`                       |
+| [[网鼎杯 2020 朱雀组]phpweb](Web/[网鼎杯 2020 朱雀组]phpweb.md) |                   `php反序列化`                    |
+| [[BSidesCF 2020]Had a bad day](Web/[BSidesCF 2020]Had a bad day.md) |                     `文件包含`                     |
+| [[BJDCTF2020]ZJCTF，不过如此](Web/[BJDCTF2020]ZJCTF，不过如此.md) | `php文件包含`   `php伪协议 `   `preg_replace的RCE漏洞` |
+| [[BUUCTF 2018]Online Tool](Web/[BUUCTF 2018]Online Tool.md)  |      `escapeshellarg`   `escapeshellcmd`   `php代码审计`  `nmap写入shell`      |
+| [[GXYCTF2019]禁止套娃](Web/[GXYCTF2019]禁止套娃.md) | `无参RCE` `git泄露` |
+| [[NCTF2019]Fake XML cookbook](Web/[NCTF2019]Fake XML cookbook.md) | `xxe` |
+| [[GWCTF 2019]我有一个数据库](Web/[GWCTF 2019]我有一个数据库.md) | `phpmyadmin CVE`   `文件包含漏洞` |
+| [[BJDCTF2020]Mark loves cat](Web/[BJDCTF2020]Mark loves cat.md) | `git泄露`   `php变量覆盖` |
+| [[WUSTCTF2020]朴实无华](Web/[WUSTCTF2020]朴实无华.md) | `php代码审计`   `命令执行绕过`   `md5 0e`   `科学计数法弱类型` |
+| [[BJDCTF2020]Cookie is so stable](Web/[BJDCTF2020]Cookie is so stable.md) | `SSTI`    `twig` |
+| [[安洵杯 2019]easy_web](Web/[安洵杯 2019]easy_web.md) | `md5强碰撞` |
+| [[MRCTF2020]Ezpop](Web/[MRCTF2020]Ezpop.md) | `php反序列化`    `preg_replace调用__toString` |
+| [[强网杯 2019]高明的黑客](Web/[强网杯 2019]高明的黑客.md) | `乱序php文件找webshell` |
+| [[安洵杯 2019]easy_serialize_php](Web/[安洵杯 2019]easy_serialize_php.md) | `php反序列化字符串逃逸(变短)`   `SESSION变量覆盖` |
+| [[MRCTF2020]PYWebsite](Web/[MRCTF2020]PYWebsite.md) | `X-Forwarded-For` `脑洞` |
+| [[WesternCTF2018]shrine](Web/[WesternCTF2018]shrine.md) | `python沙箱逃逸`   `flask` |
+| [[ASIS 2019]Unicorn shop](Web/[ASIS 2019]Unicorn shop.md) | `python`   `unicode` |
+| [[网鼎杯 2020 朱雀组]Nmap](Web/[网鼎杯 2020 朱雀组]Nmap.md) | `nmap写入shell` |
+| [[NPUCTF2020]ReadlezPHP](Web/[NPUCTF2020]ReadlezPHP.md) | `php反序列化` |
+| [[CISCN2019 华东南赛区]Web11](Web/[CISCN2019 华东南赛区]Web11.md) | `SSTI`   `smarty` |
+| [[SWPU2019]Web1](Web/[SWPU2019]Web1.md) | `sql注入`   `无列名注入`    `二次注入`    `mysql.innodb_table_stats` |
+| [[CISCN 2019 初赛]Love Math](Web/[CISCN 2019 初赛]Love Math.md) | `白名单函数构造RCE`    `php代码审计` |
+| [[极客大挑战 2019]FinalSQL](Web/[极客大挑战 2019]FinalSQL.md) | `sql注入`    `异或注入` |
+| [[BSidesCF 2019]Kookie](Web/[BSidesCF 2019]Kookie.md) | `Cookie` |
+| [[BSidesCF 2019]Futurella](Web/[BSidesCF 2019]Futurella.md) | `源码` |
+| [[De1CTF 2019]SSRF Me](Web/[De1CTF 2019]SSRF Me.md) | `flask`   `python代码审计` |
+|  |  |
 

