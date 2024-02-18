@@ -69,5 +69,5 @@
 | [[BJDCTF2020]EasySearch](Web/[BJDCTF2020]EasySearch.md) | `index.php.swf`   `python md5生成` `SSI注入` |
 | [[极客大挑战 2019]RCE ME](Web/[极客大挑战 2019]RCE ME.md) | `正则表达式绕过` `异或绕过` `取反绕过` |
 | [[SUCTF 2019]Pythonginx](Web/[SUCTF 2019]Pythonginx.md) | `IDNA编码` `unicode` `flask` |
-|  |  |
+| [[GYCTF2020]FlaskApp](Web/[GYCTF2020]FlaskApp.md) | `flask`     `SSTI` |
 
