@@ -62,7 +62,7 @@
 | [[CISCN2019 华东南赛区]Web11](Web/[CISCN2019 华东南赛区]Web11.md) | `SSTI`   `smarty` |
 | [[SWPU2019]Web1](Web/[SWPU2019]Web1.md) | `sql注入`   `无列名注入`    `二次注入`    `mysql.innodb_table_stats` |
 | [[CISCN 2019 初赛]Love Math](Web/[CISCN 2019 初赛]Love Math.md) | `白名单函数构造RCE`    `php代码审计` |
-| [[极客大挑战 2019]FinalSQL](Web/[极客大挑战 2019]FinalSQL.md) | `sql注入`    `异或注入` |
+| [[极客大挑战 2019]FinalSQL](Web/[极客大挑战 2019]FinalSQL.md) | `sql注入`    `异或注入` `布尔盲注` |
 | [[BSidesCF 2019]Kookie](Web/[BSidesCF 2019]Kookie.md) | `Cookie` |
 | [[BSidesCF 2019]Futurella](Web/[BSidesCF 2019]Futurella.md) | `源码` |
 | [[De1CTF 2019]SSRF Me](Web/[De1CTF 2019]SSRF Me.md) | `flask`   `python代码审计` |
@@ -70,4 +70,10 @@
 | [[极客大挑战 2019]RCE ME](Web/[极客大挑战 2019]RCE ME.md) | `正则表达式绕过` `异或绕过` `取反绕过` |
 | [[SUCTF 2019]Pythonginx](Web/[SUCTF 2019]Pythonginx.md) | `IDNA编码` `unicode` `flask` |
 | [[GYCTF2020]FlaskApp](Web/[GYCTF2020]FlaskApp.md) | `flask`     `SSTI` |
+| [[0CTF 2016]piapiapia](Web/[0CTF 2016]piapiapia.md) | `php反序列化字符串逃逸(变长)` |
+| [[FBCTF2019]RCEService](Web/[FBCTF2019]RCEService.md) | `preg_match多行绕过` `PCRE回溯次数限制绕过` |
+| [[WUSTCTF2020]颜值成绩查询](Web/[WUSTCTF2020]颜值成绩查询.md) | `sql注入` `异或注入` `布尔盲注` |
+| [[MRCTF2020]套娃](Web/[MRCTF2020]套娃.md) | `_传参` `php之data伪协议` `preg_match多行绕过` |
+| [[Zer0pts2020]Can you guess it?](Web/[Zer0pts2020]Can you guess it.md) | `php代码审计` `basename绕过` `空字符绕过\/*正则` |
+
 
