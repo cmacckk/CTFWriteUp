@@ -85,4 +85,6 @@
 | [[RCTF2015]EasySQL](Web/[RCTF2015]EasySQL.md) | `sql注入`   `二次注入` |
 | [[CISCN2019 华北赛区 Day1 Web5]CyberPunk](Web/[CISCN2019 华北赛区 Day1 Web5]CyberPunk.md) | `文件包含`   `sql注入`    `二次注入` |
 | [[CISCN2019 华北赛区 Day1 Web1]Dropbox](Web/[CISCN2019 华北赛区 Day1 Web1]Dropbox.md) | `phar反序列化`   `任意文件下载` |
+| [[网鼎杯 2020 白虎组]PicDown](Web/[网鼎杯 2020 白虎组]PicDown.md) | `linux系统使用open()函数未关闭导致可读取内容` `flask SECRET_KEY` `任意文件读取` |
+| [[HITCON 2017]SSRFme](Web/[HITCON 2017]SSRFme.md) | `linux系统使用open()函数未关闭导致可读取内容` `flask SECRET_KEY` `任意文件读取` |
 
