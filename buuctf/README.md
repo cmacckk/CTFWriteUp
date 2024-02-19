@@ -81,5 +81,8 @@
 | [[watevrCTF-2019]Cookie Store](Web/[watevrCTF-2019]Cookie Store.md) | `Cookie` |
 | [[GWCTF 2019]枯燥的抽奖](Web/[GWCTF 2019]枯燥的抽奖.md) | `mt_srand seed爆破` |
 | [[红明谷CTF 2021]write_shell](Web/[红明谷CTF 2021]write_shell.md) | `php代码审计`   `命令执行绕过` |
-| [[NCTF2019]True XML cookbook](Web/[NCTF2019]True XML cookbook.md) |  |
+| [[NCTF2019]True XML cookbook](Web/[NCTF2019]True XML cookbook.md) | `xxe`    `内网探测` |
+| [[RCTF2015]EasySQL](Web/[RCTF2015]EasySQL.md) | `sql注入`   `二次注入` |
+| [[CISCN2019 华北赛区 Day1 Web5]CyberPunk](Web/[CISCN2019 华北赛区 Day1 Web5]CyberPunk.md) | `文件包含`   `sql注入`    `二次注入` |
+| [[CISCN2019 华北赛区 Day1 Web1]Dropbox](Web/[CISCN2019 华北赛区 Day1 Web1]Dropbox.md) | `phar反序列化`   `任意文件下载` |
 

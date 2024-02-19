@@ -22,3 +22,7 @@
 
 ![](./img/[NCTF2019]True XML cookbook-1.png)
 
+![](./img/[NCTF2019]True XML cookbook-2.png)
+
+![](./img/[NCTF2019]True XML cookbook-3.png)
+
