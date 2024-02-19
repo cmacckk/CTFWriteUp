@@ -75,5 +75,11 @@
 | [[WUSTCTF2020]颜值成绩查询](Web/[WUSTCTF2020]颜值成绩查询.md) | `sql注入` `异或注入` `布尔盲注` |
 | [[MRCTF2020]套娃](Web/[MRCTF2020]套娃.md) | `_传参` `php之data伪协议` `preg_match多行绕过` |
 | [[Zer0pts2020]Can you guess it?](Web/[Zer0pts2020]Can you guess it.md) | `php代码审计` `basename绕过` `空字符绕过\/*正则` |
-
+| [[CSCCTF 2019 Qual]FlaskLight](Web/[CSCCTF 2019 Qual]FlaskLight.md) | `flask`   `SSTI` |
+| [[CISCN2019 华北赛区 Day1 Web2]ikun](Web/[CISCN2019 华北赛区 Day1 Web2]ikun.md) | `JWT`    `pickle` |
+| [[WUSTCTF2020]CV Maker](Web/[WUSTCTF2020]CV Maker.md) | `头像处文件上传` |
+| [[watevrCTF-2019]Cookie Store](Web/[watevrCTF-2019]Cookie Store.md) | `Cookie` |
+| [[GWCTF 2019]枯燥的抽奖](Web/[GWCTF 2019]枯燥的抽奖.md) | `mt_srand seed爆破` |
+| [[红明谷CTF 2021]write_shell](Web/[红明谷CTF 2021]write_shell.md) | `php代码审计`   `命令执行绕过` |
+| [[NCTF2019]True XML cookbook](Web/[NCTF2019]True XML cookbook.md) |  |
 
