@@ -87,4 +87,8 @@
 | [[CISCN2019 华北赛区 Day1 Web1]Dropbox](Web/[CISCN2019 华北赛区 Day1 Web1]Dropbox.md) | `phar反序列化`   `任意文件下载` |
 | [[网鼎杯 2020 白虎组]PicDown](Web/[网鼎杯 2020 白虎组]PicDown.md) | `linux系统使用open()函数未关闭导致可读取内容` `flask SECRET_KEY` `任意文件读取` |
 | [[HITCON 2017]SSRFme](Web/[HITCON 2017]SSRFme.md) | `linux系统使用open()函数未关闭导致可读取内容` `flask SECRET_KEY` `任意文件读取` |
+| [[b01lers2020]Welcome to Earth](Web/[b01lers2020]Welcome to Earth.md) | `javascript逆向` |
+| [[HFCTF2020]EasyLogin](Web/[HFCTF2020]EasyLogin.md) | `JWT none`   `javascript代码审计` |
+| [[CISCN2019 总决赛 Day2 Web1]Easyweb](Web/[CISCN2019 总决赛 Day2 Web1]Easyweb.md) | ``sql注入hex绕过引号``   `盲注`   `文件上传` |
+| [[GYCTF2020]Ezsqli](Web/[GYCTF2020]Ezsqli.md) | `SQL注入`    `异或注入`    `布尔盲注`    `无列名注入` |
 
