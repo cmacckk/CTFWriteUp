@@ -91,4 +91,20 @@
 | [[HFCTF2020]EasyLogin](Web/[HFCTF2020]EasyLogin.md) | `JWT none`   `javascript代码审计` |
 | [[CISCN2019 总决赛 Day2 Web1]Easyweb](Web/[CISCN2019 总决赛 Day2 Web1]Easyweb.md) | ``sql注入hex绕过引号``   `盲注`   `文件上传` |
 | [[GYCTF2020]Ezsqli](Web/[GYCTF2020]Ezsqli.md) | `SQL注入`    `异或注入`    `布尔盲注`    `无列名注入` |
+| [[SWPUCTF 2018]SimplePHP](Web/[SWPUCTF 2018]SimplePHP.md) | `phar反序列化` |
+| [[RootersCTF2019]I_<3_Flask](Web/[RootersCTF2019]I_3_Flask.md) | `flask`   `SSTI` |
+| [[NCTF2019]SQLi](Web/[NCTF2019]SQLi.md) | `SQL注入`   `转义注入`   `正则regexp` |
+| [[NPUCTF2020]ezinclude](Web/[NPUCTF2020]ezinclude.md) | `php文件包含临时文件getshell` |
+| [[网鼎杯 2018]Comment](Web/[网鼎杯 2018]Comment.md) | `SQL注入`    `二次注入 `   `git泄露`    `.DS_Store找flag` |
+| [[HarekazeCTF2019]encode_and_encode](Web/[HarekazeCTF2019]encode_and_encode.md) | `json unicode解析绕过`    `php伪协议` |
+| [[SUCTF 2019]EasyWeb](Web/[SUCTF 2019]EasyWeb.md) | `php代码审计`    `无字符RCE`     `.htaccess文件利用` |
+| [[CISCN2019 华东南赛区]Double Secret](Web/[CISCN2019 华东南赛区]Double Secret.md) | `flask debug`    `RC4` |
+| [[网鼎杯2018]Unfinish](Web/[网鼎杯2018]Unfinish.md) | `SQL注入`    `二次注入` |
+| [October 2019 Twice SQL Injection](Web/October 2019 Twice SQL Injection.md) | `SQL注入`     `二次注入` |
+| [[网鼎杯 2020 半决赛]AliceWebsite](Web/[网鼎杯 2020 半决赛]AliceWebsite.md) | `文件包含` |
+| [[GYCTF2020]EasyThinking](Web/[GYCTF2020]EasyThinking.md) | `ThinkPHP6.0任意文件写`    `disable_functions` |
+| [[BJDCTF2020]EzPHP](Web/[BJDCTF2020]EzPHP.md) | `php代码审计`    `$_SERVER`   `preg_match`   `$_REQUEST`   `file_get_contents`   `extract变量覆盖`   `create_function` |
+| [[GKCTF 2021]easycms](Web/[GKCTF 2021]easycms.md) | `弱口令`    `模板库文件包含` |
+| [[GXYCTF2019]StrongestMind](Web/[GXYCTF2019]StrongestMind.md) | `python` |
+|  |  |
 
