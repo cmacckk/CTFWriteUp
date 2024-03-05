@@ -3,7 +3,7 @@ from lxml import etree
 import time
 
 
-URL = 'http://eb737ba8-7794-4807-a298-d34f91c43182.node5.buuoj.cn:81/'
+URL = 'http://abccec52-869c-40fa-bae4-563b03deb1be.node5.buuoj.cn:81/'
 
 answer = ''
 

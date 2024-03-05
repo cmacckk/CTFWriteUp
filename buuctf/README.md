@@ -106,5 +106,5 @@
 | [[BJDCTF2020]EzPHP](Web/[BJDCTF2020]EzPHP.md) | `php代码审计`    `$_SERVER`   `preg_match`   `$_REQUEST`   `file_get_contents`   `extract变量覆盖`   `create_function` |
 | [[GKCTF 2021]easycms](Web/[GKCTF 2021]easycms.md) | `弱口令`    `模板库文件包含` |
 | [[GXYCTF2019]StrongestMind](Web/[GXYCTF2019]StrongestMind.md) | `python` |
-|  |  |
+| [[HFCTF2020]JustEscape](Web/[HFCTF2020]JustEscape.md) | `vm2沙箱逃逸` |
 

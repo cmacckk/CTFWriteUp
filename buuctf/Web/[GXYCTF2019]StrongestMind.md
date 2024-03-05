@@ -58,3 +58,4 @@ if __name__ == "__main__":
     post_answer(calc)
 ```
 
+![](./img/[GXYCTF2019]StrongestMind-2.png)
