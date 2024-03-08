@@ -108,4 +108,5 @@
 | [[GXYCTF2019]StrongestMind](Web/[GXYCTF2019]StrongestMind.md) | `python` |
 | [[HFCTF2020]JustEscape](Web/[HFCTF2020]JustEscape.md) | `vm2沙箱逃逸` |
 | [[SUCTF 2018]GetShell](Web/[SUCTF 2018]GetShell.md) | `文件上传汉字取反绕过` |
+| [[b01lers2020]Life on Mars](Web/[b01lers2020]Life on Mars.md) | `sql注入` |
 
