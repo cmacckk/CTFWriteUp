@@ -1,0 +1,3 @@
+<IfModule mime_module>
+AddType application/x-httpd-php .gif
+</IfModule>
