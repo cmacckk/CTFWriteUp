@@ -109,4 +109,6 @@
 | [[HFCTF2020]JustEscape](Web/[HFCTF2020]JustEscape.md) | `vm2沙箱逃逸` |
 | [[SUCTF 2018]GetShell](Web/[SUCTF 2018]GetShell.md) | `文件上传汉字取反绕过` |
 | [[b01lers2020]Life on Mars](Web/[b01lers2020]Life on Mars.md) | `sql注入` |
+| [[WMCTF2020]Make PHP Great Again](Web/[WMCTF2020]Make PHP Great Again.md) | `文件包含`   `绕过文件包含次数限制` |
+| [[极客大挑战 2020]Roamphp1-Welcome](Web/[极客大挑战 2020]Roamphp1-Welcome.md) | `http请求方式修改`    `弱类型数组绕过` |
 
