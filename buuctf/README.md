@@ -113,4 +113,6 @@
 | [[极客大挑战 2020]Roamphp1-Welcome](Web/[极客大挑战 2020]Roamphp1-Welcome.md) | `http请求方式修改`    `弱类型数组绕过` |
 | [[MRCTF2020]Ezaudit](Web/[MRCTF2020]Ezaudit.md) | `源码泄露`    `mt_srand seed爆破`    `万能密码` |
 | [[CSAWQual 2019]Web_Unagi](Web/[CSAWQual 2019]Web_Unagi.md) | `xxe`    `编码绕过WAF保护的XXE` |
+| [EasyBypass](Web/EasyBypass.md) | `php代码审计`    `命令执行` |
+|  |  |
 
