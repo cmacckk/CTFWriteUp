@@ -114,5 +114,6 @@
 | [[MRCTF2020]Ezaudit](Web/[MRCTF2020]Ezaudit.md) | `源码泄露`    `mt_srand seed爆破`    `万能密码` |
 | [[CSAWQual 2019]Web_Unagi](Web/[CSAWQual 2019]Web_Unagi.md) | `xxe`    `编码绕过WAF保护的XXE` |
 | [EasyBypass](Web/EasyBypass.md) | `php代码审计`    `命令执行` |
-|  |  |
+| [[极客大挑战 2020]Greatphp](Web/[极客大挑战 2020]Greatphp.md) | `php反序列化类md5绕过`    `error类` |
+| [[BSidesCF 2019]SVGMagic](Web/[BSidesCF 2019]SVGMagic.md) | `svg渲染xxe` |
 
