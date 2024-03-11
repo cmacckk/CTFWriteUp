@@ -116,4 +116,7 @@
 | [EasyBypass](Web/EasyBypass.md) | `php代码审计`    `命令执行` |
 | [[极客大挑战 2020]Greatphp](Web/[极客大挑战 2020]Greatphp.md) | `php反序列化类md5绕过`    `error类` |
 | [[BSidesCF 2019]SVGMagic](Web/[BSidesCF 2019]SVGMagic.md) | `svg渲染xxe` |
+| [[SCTF2019]Flag Shop](Web/[SCTF2019]Flag Shop.md) | `jwt`    `ruby EBR`    `SSTI` |
+| [[FireshellCTF2020]Caas](Web/[FireshellCTF2020]Caas.md) | `c语言预处理` |
+| [[HarekazeCTF2019]Avatar Uploader 1](Web/[HarekazeCTF2019]Avatar Uploader 1.md) | `文件上传绕过getimagesize` |
 
