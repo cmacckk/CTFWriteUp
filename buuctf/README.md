@@ -120,3 +120,8 @@
 | [[FireshellCTF2020]Caas](Web/[FireshellCTF2020]Caas.md) | `c语言预处理` |
 | [[HarekazeCTF2019]Avatar Uploader 1](Web/[HarekazeCTF2019]Avatar Uploader 1.md) | `文件上传绕过getimagesize` |
 
+### 2.2 misc
+
+| 题目 | 类型 |
+| :--: | :--: |
+|      |  `   |
