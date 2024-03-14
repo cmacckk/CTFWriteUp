@@ -119,6 +119,7 @@
 | [[SCTF2019]Flag Shop](Web/[SCTF2019]Flag Shop.md) | `jwt`    `ruby EBR`    `SSTI` |
 | [[FireshellCTF2020]Caas](Web/[FireshellCTF2020]Caas.md) | `c语言预处理` |
 | [[HarekazeCTF2019]Avatar Uploader 1](Web/[HarekazeCTF2019]Avatar Uploader 1.md) | `文件上传绕过getimagesize` |
+| [[ISITDTU 2019]EasyPHP](Web/[ISITDTU 2019]EasyPHP.md) |  |
 
 ### 2.2 misc
 
