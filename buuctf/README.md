@@ -119,10 +119,12 @@
 | [[SCTF2019]Flag Shop](Web/[SCTF2019]Flag Shop.md) | `jwt`    `ruby EBR`    `SSTI` |
 | [[FireshellCTF2020]Caas](Web/[FireshellCTF2020]Caas.md) | `c语言预处理` |
 | [[HarekazeCTF2019]Avatar Uploader 1](Web/[HarekazeCTF2019]Avatar Uploader 1.md) | `文件上传绕过getimagesize` |
-| [[ISITDTU 2019]EasyPHP](Web/[ISITDTU 2019]EasyPHP.md) |  |
+| [[ISITDTU 2019]EasyPHP](Web/[ISITDTU 2019]EasyPHP.md) | `preg_match字符数量限制绕过`    `无参数RCE绕过` |
 
 ### 2.2 misc
 
-| 题目 | 类型 |
-| :--: | :--: |
-|      |  `   |
+|                 题目                 |                            类型                             |
+| :----------------------------------: | :---------------------------------------------------------: |
+|       [金三胖](Misc/金三胖.md)       |                   `stegsolve`    `视频帧`                   |
+| [你竟然赶我走](Misc/你竟然赶我走.md) |                  `strings`    `010editor`                   |
+|       [二维码](Misc/二维码.md)       | `二维码`    `文件分离binwalk`    `压缩包密码爆破`    `john` |
