@@ -4690,7 +4690,7 @@ tshark -r fixed.pcap -o 'ssl.keylog_file:sslkey.log' -Y 'http contains "GET /sea
    }e59ad3f38a01dca00f9759e6d205317642c5421fcdad034ebe7077c2bddd472b{ASNI2•ÃÐl$ò¨Çè“fgÛ÷þÎ(EjÒJÂÆ¡.>þK
    ```
 
-   其实我们应该是可以猜到（臭不要脸）是逆序的，直接上。
+   是逆序的，
 
    ```
    Kþ>.¡ÆÂJÒjE(Îþ÷Ûgf“èÇ¨ò$lÐÃ•2INSA{b274dddb2c7707ebe430dadcf1245c246713502d6e9579f00acd10a83f3da95e}

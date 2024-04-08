@@ -120,6 +120,9 @@
 | [[FireshellCTF2020]Caas](Web/[FireshellCTF2020]Caas.md) | `c语言预处理` |
 | [[HarekazeCTF2019]Avatar Uploader 1](Web/[HarekazeCTF2019]Avatar Uploader 1.md) | `文件上传绕过getimagesize` |
 | [[ISITDTU 2019]EasyPHP](Web/[ISITDTU 2019]EasyPHP.md) | `preg_match字符数量限制绕过`    `无参数RCE绕过` |
+| [[羊城杯2020]easyphp](Web/[羊城杯2020]easyphp.md) | `file_put_contents`   `php代码审计` |
+| [[GYCTF2020]Easyphp](Web/[GYCTF2020]Easyphp.md) | `php反序列化字符串逃逸(变长)` |
+|  |  |
 
 ### 2.2 misc
 
@@ -281,4 +284,24 @@
 |   [[INSHack2018]42.tar.xz](Misc/[INSHack2018]42.tar.xz.md)   |                     `解压递归的.tar.xz`                      |
 |  [[BSidesSF2019]diskimage](Misc/[BSidesSF2019]diskimage.md)  |      `图片隐藏镜像`   `zsteg导出`   `testdisk分析镜像`       |
 |              [INSHack2017]hiding-in-plain-sight              |                          `foremost`                          |
-|                                                              |                                                              |
+| [[INSHack2017]remote-multimedia-controller](Misc/[INSHack2017]remote-multimedia-controller.md) |                          `流量分析`                          |
+|  [[XMAN2018排位赛]AutoKey](Misc/[XMAN2018排位赛]AutoKey.md)  |                  `USB流量分析`   `autokey`                   |
+|      [[WMCTF2020]行为艺术](Misc/WMCTF2020]行为艺术.md)       |               `IHDR`   `伪加密`   `brainfuck`                |
+|  [[QCTF2018]X-man-Keyword](Misc/[QCTF2018]X-man-Keyword.md)  |                  `lsb隐写`   `Nihilist加密`                  |
+|  [[INSHack2018]not so deep](Misc/NSHack2018]not so deep.md)  |         `audacity`   `DeepSound`   `DeepSound2John`          |
+|       [[MRCTF2020]寻找xxx](Misc/[MRCTF2020]寻找xxx.md)       |          `频谱图`   `dtmf2num`   `sonic visualier`           |
+|                 [一路到底](Misc/一路到底.md)                 |                   `python提取压缩包文件名`                   |
+| [[INSHack2017]10-cl0v3rf13ld-lane-signal](Misc/[INSHack2017]10-cl0v3rf13ld-lane-signal.md) |                     `.ogg`   `摩丝编码`                      |
+|      [[羊城杯 2020]signin](Misc/[羊城杯 2020]signin.md)      |                         `toy cipher`                         |
+|      [[HDCTF2019]信号分析](Misc/[HDCTF2019]信号分析.md)      |                           `PT2262`                           |
+|     [[SUCTF2018]dead_z3r0](Misc/[SUCTF2018]dead_z3r0.md)     |                    `pyc`   `剑龙隐写pyc`                     |
+| [[watevrCTF 2019]Unspaellablle](Misc/[watevrCTF 2019]Unspaellablle.md) |                          `bcompare`                          |
+| [[NPUCTF2020]碰上彩虹，吃定彩虹！](Misc/[NPUCTF2020]碰上彩虹，吃定彩虹.md) |        `autokey`   `零宽度字符隐写`   `encrypto软件`         |
+|      [[羊城杯 2020]TCP_IP](Misc/[羊城杯 2020]TCP_IP.md)      |                  `HTTP流量分析`   `base91`                   |
+|     [[BSidesSF2019]thekey](Misc/[BSidesSF2019]thekey.md)     |                        `USB流量分析`                         |
+|    [[INSHack2019]Passthru](Misc/[INSHack2019]Passthru.md)    |                        `TLS加密流量`                         |
+|         [[GKCTF 2021]0.03](Misc/[GKCTF 2021]0.03.md)         |               `NtfsStreamEditor`   `文件挂载`                |
+|        [[QCTF2018]picture](Misc/QCTF2018]picture.md)         |                          `lsb隐写`                           |
+|      [[CTF2019]babyflash](Misc/[*CTF2019]babyflash.md)       |     `JPEXS Free Flash Decompiler`   `黑白图片组合二维码`     |
+| [[b01lers2020]image_adjustments](Misc/[b01lers2020]image_adjustments.md) |                       `python图像处理`                       |
+|    [[watevrCTF 2019]Polly](Misc/[watevrCTF 2019]Polly.md)    |                         `python公式`                         |
