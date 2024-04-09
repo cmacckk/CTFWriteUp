@@ -302,6 +302,6 @@
 |    [[INSHack2019]Passthru](Misc/[INSHack2019]Passthru.md)    |                        `TLS加密流量`                         |
 |         [[GKCTF 2021]0.03](Misc/[GKCTF 2021]0.03.md)         |               `NtfsStreamEditor`   `文件挂载`                |
 |        [[QCTF2018]picture](Misc/QCTF2018]picture.md)         |                          `lsb隐写`                           |
-|      [[CTF2019]babyflash](Misc/[*CTF2019]babyflash.md)       |     `JPEXS Free Flash Decompiler`   `黑白图片组合二维码`     |
+|       [[CTF2019]babyflash](Misc/[CTF2019]babyflash.md)       |     `JPEXS Free Flash Decompiler`   `黑白图片组合二维码`     |
 | [[b01lers2020]image_adjustments](Misc/[b01lers2020]image_adjustments.md) |                       `python图像处理`                       |
 |    [[watevrCTF 2019]Polly](Misc/[watevrCTF 2019]Polly.md)    |                         `python公式`                         |
