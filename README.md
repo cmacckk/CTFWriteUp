@@ -1,6 +1,6 @@
 # CTF Write-Ups
 
-buuctf、ctfhub、xctf已经各比赛真题刷题记录
+buuctf、ctfhub、xctf等各比赛真题刷题笔记，下载到本地阅读。
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -11,22 +11,23 @@ buuctf、ctfhub、xctf已经各比赛真题刷题记录
 
 ## 目录
 
-- [BUUCTF](#1. BUUCTF)
-  - [web](#1.1 web)
-  - [misc](#1.2 misc)
-- [CTFHUB](#1. CTFHUB)
-  - [web](#2.1 web)
-  - [misc](#2.2 misc)
-- [XCTF 功放世界](#XCTF)
-  - [web](#3.1 web)
-  - [misc](#3.2 misc)
+- [BUUCTF](#BUUCTF)
+  - [web](#buuctf-web)
+  - [misc](#buuctf-misc)
+- [CTFHUB](#CTFHUB)
+  - [web](#ctfhub-web)
+  - [misc](#ctfhub-misc)
+- [XCTF 功防世界](#XCTF)
+  - [web](#xctf-web)
+  - [misc](#xctf-misc)
 - [版本控制](#版本控制)
 - [作者](#作者)
 - [版权说明](#版权说明)
+- [本地效果](#本地效果)
 
-## 1. BUUCTF
+## BUUCTF
 
-### 1.1 web
+### buuctf-web
 
 |                             题目                             |                             图片                             | 类型                                                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------- |
@@ -175,7 +176,7 @@ buuctf、ctfhub、xctf已经各比赛真题刷题记录
 |                 [蓝帽杯 2021]One Pointer PHP                 |                                                              | `php数组key溢出`                                             |
 | [[WMCTF2020]Web Check in 2.0](buuctf/Web/[WMCTF2020]Web Check in 2.0.md) |                                                              | `死亡exit绕过`                                               |
 
-### 1.2 misc
+### buuctf-misc
 
 |                             题目                             |                             类型                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -358,15 +359,15 @@ buuctf、ctfhub、xctf已经各比赛真题刷题记录
 | [[watevrCTF 2019]Polly](buuctf/Misc/[watevrCTF 2019]Polly.md) |                         `python公式`                         |
 |                                                              |                                                              |
 
-## 2. CTFHUB
+## CTFHUB
 
-### 2.1 web
+### ctfhub-web
 
 | 题目 | 类型 |
 | :--: | :--: |
 |      |      |
 
-### 2.2 misc
+### ctfhub-misc
 
 |                          题目                           |                 类型                 |
 | :-----------------------------------------------------: | :----------------------------------: |
@@ -379,11 +380,11 @@ buuctf、ctfhub、xctf已经各比赛真题刷题记录
 | [TCP-urgent-pointer](ctfhub/Misc/TCP-urgent-pointer.md) |          `流量分析 python`           |
 |         [Flask SSTI](ctfhub/Misc/Flask SSTI.md)         |         `SSTI UTF8编码绕过`          |
 
-## 3.XCTF
+## XCTF
 
-### 3.1 web
+### xctf-web
 
-### 3.2 misc
+### xctf-misc
 
 |                             题目                             |                             类型                             |  解决文件后缀  | 难度 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------: | :--: |
@@ -509,7 +510,29 @@ buuctf、ctfhub、xctf已经各比赛真题刷题记录
 |             [regexpire](xctf/misc/regexpire.md)              |                    `python 正则regex计算`                    |                |  5   |
 |                                                              |                                                              |                |      |
 
+## tools
 
+#### 取证
+
+- [awk](./forensic/awk.md)
+
+#### 字典
+
+- [crunch生成字典](./tool_note/crunch.md)
+
+#### 配置
+
+- [apache](./tool_note/apache.md)
+
+- [mysql密码修改](tool_note/mysql.md)
+
+#### 反编译
+
+- [pyc转py](./tool_note/uncompyle.md)
+
+#### 攻击
+
+- [sqlmap tamper](./tool_note/sqlmap.md)
 
 ### 版本控制
 
@@ -519,8 +542,26 @@ buuctf、ctfhub、xctf已经各比赛真题刷题记录
 
 Email:emailforgty@163.com
 
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
-
 ### 版权说明
 
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE]([CTFWriteUp](https://github.com/cmacckk/CTFWriteUp/license)
+
+### 本地效果
+
+![](./buuctf/Web/img/show.png)
+
+
+
+[your-project-path]:cmacckk/CTFWriteUp
+[contributors-shield]: https://img.shields.io/github/contributors/cmacckk/CTFWriteUp.svg?style=flat-square
+[contributors-url]: https://github.com/cmacckk/CTFWriteUp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cmacckk/CTFWriteUp.svg?style=flat-square
+[forks-url]: https://github.com/cmacckk/CTFWriteUp/network/members
+[stars-shield]: https://img.shields.io/github/stars/cmacckk/CTFWriteUp.svg?style=flat-square
+[stars-url]: https://github.com/cmacckk/CTFWriteUp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cmacckk/CTFWriteUp.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/cmacckk/CTFWriteUp.svg
+[license-shield]: https://img.shields.io/github/license/cmacckk/CTFWriteUp.svg?style=flat-square
+[license-url]: https://github.com/cmacckk/CTFWriteUp/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/shaojintian
