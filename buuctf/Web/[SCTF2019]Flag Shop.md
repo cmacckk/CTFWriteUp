@@ -6,7 +6,7 @@
 
 `ruby EBR`
 
-`SSTI`
+`SSTIw`
 
 ## 解题
 

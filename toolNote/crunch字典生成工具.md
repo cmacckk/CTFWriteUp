@@ -46,6 +46,6 @@ crunch <min-len> <max-len> [<charset string>] [options]
 - 生成一个`4`位数的`纯数字`字典
 
 ```bash
-crunch 4 4 %%%% -o dict.txt
+crunch 4 4 -t %%%% -o dict.txt
 ```
 

@@ -10,7 +10,7 @@
 
 进入题目首页
 
-![1Kun 1](file:///G:/CTFWriteUp/buuctf/Web/img/16-1.png?lastModify=1708305010)
+![1Kun 1](./img/16-1.png?lastModify=1708305010)
 
 要求冲到`lv6`
 
@@ -30,11 +30,11 @@ for i in range(1, 200):
 
 运行结果为`180`
 
-![1Kun 2](file:///G:/CTFWriteUp/buuctf/Web/img/16-2.png?lastModify=1708305010)
+![1Kun 2](./img/16-2.png?lastModify=1708305010)
 
 发现了`lv6`的购买链接，`burpsuite`抓包看看
 
-![1Kun 3](file:///G:/CTFWriteUp/buuctf/Web/img/16-3.png?lastModify=1708305010)
+![1Kun 3](./img/16-3.png?lastModify=1708305010)
 
 发现下面的`discount`即为折扣值
 
@@ -48,17 +48,17 @@ for i in range(1, 200):
 python3 .\jwt_tool.py eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNjYyJ9.J2bFVzLD9m-41Jq8Z4J-FAB-8Kx04DqrvTcxQM521O4 -C -d .\top19576.txt
 ```
 
-![Alt text](file:///G:/CTFWriteUp/buuctf/Web/img/16-6.png?lastModify=1708305010)
+![Alt text](./img/16-6.png?lastModify=1708305010)
 
 得到`secret`为`1Kun`
 
 或者使用`jwtcrack`获取`secret`
 
-![Alt text](file:///G:/CTFWriteUp/buuctf/Web/img/16-8.png?lastModify=1708305010)
+![Alt text](./img/16-8.png?lastModify=1708305010)
 
 `Cyberchef`解密结果
 
-![Alt text](file:///G:/CTFWriteUp/buuctf/Web/img/16-7.png?lastModify=1708305010)
+![Alt text](./img/16-7.png?lastModify=1708305010)
 
 使用`python`生成`jwt`
 
@@ -91,17 +91,17 @@ print(token + "." + sig)
 
 放入`Cookie`中可以发现用户名已经变为`admin`
 
-![Alt text](file:///G:/CTFWriteUp/buuctf/Web/img/16-9.png?lastModify=1708305010)
+![Alt text](./img/16-9.png?lastModify=1708305010)
 
 再到`burpsuite`中进行购买`lv6`
 
 购买的时候发现了隐藏信息
 
-![Alt text](file:///G:/CTFWriteUp/buuctf/Web/img/16-11.png?lastModify=1708305010)
+![Alt text](./img/16-11.png?lastModify=1708305010)
 
 在下载的文件里发现了`pickle`反序列化，那么就可以利用`pickle`反序列化执行命令了
 
-![Alt text](file:///G:/CTFWriteUp/buuctf/Web/img/16-12.png?lastModify=1708305010)
+![Alt text](./img/16-12.png?lastModify=1708305010)
 
 ```python
 import pickle
@@ -127,9 +127,9 @@ print(urllib.quote(s))
 ccommands%0Agetoutput%0Ap0%0A%28S%27cat%20/flag.txt%27%0Ap1%0Atp2%0ARp3%0A.
 ```
 
-![pickle](file:///G:/CTFWriteUp/buuctf/Web/img/16-13.png?lastModify=1708305010)
+![pickle](./img/16-13.png?lastModify=1708305010)
 
 放到`burpsuite`的`become`参数即可
 
-![pickle](file:///G:/CTFWriteUp/buuctf/Web/img/16-14.png?lastModify=1708305010)
+![pickle](./img/16-14.png?lastModify=1708305010)
 

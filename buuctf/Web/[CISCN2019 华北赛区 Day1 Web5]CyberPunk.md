@@ -12,7 +12,7 @@
 
 进入首页后在源代码处找到了隐藏信息
 
-![Alt text](G:/CTFWriteUp/buuctf/Web/img/22-1.png)
+![Alt text](./img/22-1.png)
 
 `LFI`读取文件
 
@@ -158,7 +158,7 @@ if(!empty($_POST["user_name"]) && !empty($_POST["phone"]))
 
 由于`address`被`addslashes()`转义以后单引号等无法使用，但是更新地址时，会将旧地址保存下来，所以我们只要将在第一次修改地址时输入`SQL`注入语句，在第二次更新时（随便输），第一次更新的`SQL`语句会被调用从而引发`二次注入`。
 
-![Alt text](G:/CTFWriteUp/buuctf/Web/img/22-2.png)
+![Alt text](./img/22-2.png)
 
 提交订单后修改两次订单，第二次会执行
 
@@ -168,8 +168,8 @@ address=1' where user_id=updatexml(1,concat(0x7e,(select substr(load_file('/flag
 address=1' where user_id=updatexml(1,concat(0x7e,(select substr(load_file('/flag.txt'),20,50)),0x7e),1)#
 ```
 
-![Alt text](G:/CTFWriteUp/buuctf/Web/img/22-3.png)
+![Alt text](./img/22-3.png)
 
-![Alt text](G:/CTFWriteUp/buuctf/Web/img/22-4.png)
+![Alt text](./img/22-4.png)
 
 因`CISCN`的`flag`是存在根目录下，故读取根目录文件

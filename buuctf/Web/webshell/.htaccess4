@@ -1,3 +1,0 @@
-<FilesMatch "1.png">
-SetHandler application/x-httpd-php
-</FilesMatch>
